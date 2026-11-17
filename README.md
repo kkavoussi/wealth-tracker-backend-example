@@ -187,6 +187,4 @@ uvicorn app.main:app --reload
 
 Requires a Plaid account (Production or Sandbox), a Supabase project, and a SnapTrade account. All environment variables are documented in `.env.example`.
 
----
 
-*Built by Kavon Kavoussi at Kairos Digital LLC. Developed with Claude Code.*
