@@ -2,7 +2,7 @@
 
 A personal finance web application built for a multi-member household. It pulls real banking, credit, investment, and payroll data via Plaid and SnapTrade, processes and categorizes it through a FastAPI backend, stores everything in Supabase, and surfaces it through a Next.js frontend (not in this repo).
 
-**This repo contains the backend only.** The full system is live in production. Code is shared here as a reference — the production repo is private because it connects to live financial accounts.
+**This repo contains the backend only.** The full system is live in production. Code is shared here as a reference — the production repo is private.
 
 ---
 
@@ -170,7 +170,6 @@ For employers not connected via Plaid Income, paystubs can be uploaded as PDF, P
 
 - **Phase 4.20:** AI Chat Agent — `POST /chat` endpoint with Claude tool use, giving the agent access to payroll summaries, income statement data, and transaction history. The payroll-level data (gross, every deduction, YTD figures) is what makes this more capable than a generic finance chatbot.
 - **Phase 5.0:** Budget creation via natural language — agent reviews spending history with the user, proposes a budget by category, and saves it to the database.
-- **Staging environment:** currently the only environment is production.
 
 ---
 
